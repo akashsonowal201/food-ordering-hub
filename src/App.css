@@ -1,0 +1,17 @@
+.app{
+
+  max-width:1500px;
+
+  margin:auto;
+
+  padding:25px;
+}
+
+.main-content{
+
+  display:flex;
+
+  gap:30px;
+
+  align-items:flex-start;
+}

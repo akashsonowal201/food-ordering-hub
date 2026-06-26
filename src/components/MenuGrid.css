@@ -1,0 +1,21 @@
+.menu-grid{
+
+    flex:1;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+
+    gap:25px;
+}
+
+.no-food{
+
+    width:100%;
+
+    padding:60px;
+
+    text-align:center;
+
+    color:rgb(110,110,110);
+}

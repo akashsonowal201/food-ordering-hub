@@ -1,0 +1,99 @@
+.navbar{
+
+    position:relative;
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    align-items:center;
+
+    padding:18px 30px;
+
+    background-color:rgb(255,255,255);
+
+    border-radius:14px;
+
+    box-shadow:0px 4px 12px rgb(220,220,220);
+
+    margin-bottom:25px;
+}
+
+.logo{
+
+    position:absolute;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+}
+
+.logo h1{
+
+    font-size:34px;
+
+    font-weight:700;
+
+    color:rgb(230,81,0);
+}
+
+.logo p{
+    color:rgb(100,100,100);
+    font-size:14px;
+}
+
+.cart-icon{
+    position:relative;
+
+    width:55px;
+    height:55px;
+
+    border-radius:50%;
+
+    background-color:rgb(230,81,0);
+
+    color:white;
+
+    font-size:24px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    transition:0.3s;
+}
+
+.cart-icon:hover{
+    background-color:rgb(210,70,0);
+
+    transform:scale(1.05);
+}
+
+.cart-badge{
+    position:absolute;
+
+    top:-6px;
+    right:-6px;
+
+    width:24px;
+    height:24px;
+
+    border-radius:50%;
+
+    background-color:rgb(255,255,255);
+
+    color:rgb(230,81,0);
+
+    font-size:13px;
+    font-weight:bold;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
