@@ -1,6 +1,9 @@
 import "./Navbar.css";
 
-function Navbar({ totalItems, openCart }) {
+function Navbar({ 
+  totalItems,
+  openCart
+}){
   return (
     <header className="navbar">
 
@@ -8,7 +11,6 @@ function Navbar({ totalItems, openCart }) {
         <h1>🍽️ FoodHub</h1>
         <p>Fresh & Delicious</p>
       </div>
-
       <button
         className="cart-icon"
         onClick={openCart}
